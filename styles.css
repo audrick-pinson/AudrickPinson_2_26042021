@@ -1,42 +1,76 @@
 h1, h2 {color:black;}
+ul{	list-style-type: none;}
 
-.entete
+
+header
 {
-	width: 70%
-	height:;
-	border: 3px black solid;
+	height: 400px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid black;
+	background: #FFF;
+	align-content: stretch;
 }
 
-div
+#logo
 {
+ height: 70px;
+ position: absolute;
+ padding-top:10px; 
+ padding-left:30px;
+}
+
+#slogan
+{
+	font-size: 25px;
+	padding-left:30px;
+	padding-top: 70px;
+}
+
+#sujet
+{
+	padding-left: 30px;
+}
+
+#search
+{}
+
+#filtres
+{
+	align-items: baseline;
 
 }
 
 #menu
 {
-	border-right: ;
-	width: 30px;
-	display: flex;
-	justify-content: space-between;
+	margin-right: 15px
 
- 
 }
 
-section
+
+nav
 {
-	background-color: grey;
-    border-radius: 20px ;
-    margin: 20px 20px;
-    display: flex;
-    flex-wrap: wrap;
+right: 30%;
+
+align-content: 
 }
 
-figure
+footer
 {
-	border-radius: 10px;
-	background-color: white;
-	margin: 20px 20px 20px 20px;
-	padding: 5px 5px 5px 5px;
+	width: 100%;
+	height: 250px;
 	display: flex;
-	flex-wrap: wrap;
+	background:grey;
 }
+
+.sous_titre
+{
+	text-align: justify }
+
+.info
+{
+	margin: auto;
+	text-align: auto;
+}
+

@@ -3,19 +3,20 @@
    <head>
    	    <meta charset="utf-8">
    	    <link rel="stylesheet" type="text/css" href="styles.css">
+   	    <link rel="stylesheet.css" href="fontawesome-free-5.15.3-web/css/fontawesome.css">
 	    <title>Reservia</title>
    </head>
 
    <div></div>
     <body>
 
-     <div class="entete">
+     <div id="entete">
     	<header>
-    		<img src="images/logo/Reservia.svg" alt="Reservia"><br/>
-    		<h1>trouvez votre hébergement pour des vacances de rêve</h1><br/>
-    		<p>En plein centre ville ou en pleine nature</p><br/>
+    		<img class="logo" src="images/logo/Reservia.svg" alt="Reservia"><br/>
+    		<h1 class="slogan">trouvez votre hébergement pour des vacances de rêve</h1><br/>
+    		<p class="sujet">En plein centre ville ou en pleine nature</p><br/>
 
-			<div id="search"><!--balise dedier à la barre de recherche blocage mise en forme-->	
+			<div class="search"><!--balise dedier à la barre de recherche blocage mise en forme-->	
 				<form method="post" action="#">
 					<p>
 						<input type=" search" name="ville">
@@ -25,27 +26,28 @@
 			</div> 	    
      
 
-            <div id="filtres">
+            <div class="filtres">
             	<h2>Filtres</h2>
     			   <form method="post" action="#  ">
     			   	<p>
-    			   		<input type="checkbox" id="Economique" />
+
+    			   		<i class="fas fa-money-bill-wave"></i><input type="checkbox" id="Economique" />
     			   		<label for="Economique">Economique</label><br/>
-    			   		<input type="checkbox" id="Familial" />
+
+    			   		<i class="fas fa-child"></i><input type="checkbox" id="Familial" />
     			   		<label for="Familial">Familial</label><br/>
-    			   		<input type="checkbox" id="Romantique" />
+
+    			   		<i class="fas fa-heart"></i><input type="checkbox" id="Romantique" />
     			   		<label for="Romantique">Romantique</label><br/>
-    			   		<input type="checkbox" id="Animaux autorisés" />
+    			   		
+    			   		<i class="fas fa-dog"></i><input type="checkbox" id="Animaux autorisés" />
     			   		<label for="Animaux autorisés">Animaux autorisés</label><br/>
 
     			   	</p>
     			   </form>
      		</div>
     		
-    	</header>
-      </div>
-
-        <nav id="menu">
+    		<nav class="menu">
                 <ul>
                     <li><a href="#">Hébergement</a></li>
                     <li><a href="#">Activités</a></li>
@@ -53,7 +55,10 @@
                 </ul>
             </nav>
 
+    	</header> 
+      </div>
 
+        
         <div>
         	<p> Plus de 500 logements sont disponibles dans cette ville</p><br/>
         </div>
@@ -165,28 +170,28 @@
 
         <div id="footer">
         <footer>
-        	<div>
-        		<h2>A propos</h2><br/>
+        	<div class="info">
+        		<h2 class="sous_titre">A propos</h2>
         		<ul>
-        			<li>Fonctionnement du site</li><br/>
-        			<li>Conditions générales de ventes</li><br/>
-        			<li>Données et confidentialité</li><br/>
+        			<li><a href="#">Fonctionnement du site</a></li><br/>
+        			<li><a href="#">Conditions générales de ventes</a></li><br/>
+        			<li><a href="#">Données et confidentialité</a></li><br/>
         		</ul>
         	</div>
 
-        	<div>
-        		<h2>Nos hébergements</h2><br/>
+        	<div class="info">
+        		<h2>Nos hébergements</h2>
         		<ul>
-        			<li>Charte qualité</li><br/>
-        			<li>Soumettre votre hôtel</li><br/>
+        			<li><a href="#">Charte qualité</a></li><br/>
+        			<li><a href="#">Soumettre votre hôtel</a></li><br/>
         		</ul>
         	</div>
 
-        	<div>
-        		<h2>Assistance</h2><br/>
+        	<div class="info">
+        		<h2>Assistance</h2>
         		<ul>
-        			<li>Centre d'aide</li><br/>
-        			<li>Nous contacter</li><br/>
+        			<li><a href="#">Centre d'aide</a></li><br/>
+        			<li><a href="#">Nous contacter</a></li><br/>
         		</ul>
         	</div>
 
