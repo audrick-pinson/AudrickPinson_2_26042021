@@ -10,16 +10,27 @@
 		</head>
 		<body>
 					<header>
+						<div class="header1"><!-- ce bloc1 contient la nav et le logo-->
 							<img class="logo" src="images/logo/Reservia.svg" alt="Reservia"><br/>
+							<nav class="menu">
+								<ul>
+									<li><a href="#">Hébergement</a></li>
+									<li><a href="#">Activités</a></li>
+									<li><a href="#">S'inscrire</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="header2"><!--ce bloc2 concerne le sujet et le slogan-->
 							<h1 class="slogan">trouvez votre hébergement pour des vacances de rêve</h1><br/>
 							<p class="sujet">En plein centre ville ou en pleine nature</p><br/>
-							<div class="search"><!--balise dedier à la barre de recherche blocage mise en forme-->
+						</div>
+							<div class="search"><!--bloc3 dedier à la barre de recherche blocage mise en forme-->
 									<form method="post" action="#">
 											<input class="search-ville" type="search" name="ville">
 											<input class="search-buttom" type="submit" value="rechercher" placeholder="ville rechercher">
 									</form>
 							</div>
-							<div class="filtres">
+							<div class="filtres"><!--ce bloc4 est dédier au filtre-->
 								<h2>Filtres</h2>
 								<form method="post" action="#">
 									<span>
@@ -40,16 +51,9 @@
 									</span>
 								</form>
 							</div>
-							<nav class="menu">
-								<ul>
-									<li><a href="#">Hébergement</a></li>
-									<li><a href="#">Activités</a></li>
-									<li><a href="#">S'inscrire</a></li>
-								</ul>
-							</nav>
 					</header>
 							<div>Plus de 500 logements sont disponibles dans cette ville</div>
-							<div><!-- Concerne le corps centrale du site-->
+							<div class="chambre"><!-- Concerne le corps centrale du site dedier chambre-->
 					<section id="section1">
 										<h1>Hébergement à Marseille</h1><br/>
 									<div>
@@ -125,9 +129,10 @@
 										</div>
 									</div>
 					</section>
+				</div>
 					<section id="section3">
+							<div class="discovery">
 									<h1>Activités à Marseille</h1><br/>
-									<div>
 										<div>
 											<a href="#">
 												<img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux-port">
@@ -146,6 +151,8 @@
 												<strong>Iles du Frioul</strong>
 											</a>
 										</div>
+							</div>
+							<div class="discovery">
 										<div>
 											<a href="#">
 												<img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc-National-des-Calanques">
@@ -164,6 +171,7 @@
 												<strong>Parc Longchamp</strong>
 											</a>
 										</div>
+							</div>
 					</section>
 					<footer>
 												<div class="info">
