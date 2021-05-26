@@ -1,4 +1,8 @@
 h1, h2 {color:black;}
+h1
+{
+	font-size: 110%;
+}
 a{text-decoration: none;}
 *
 {
@@ -62,16 +66,6 @@ li
 #barre-recherche
 {
 	margin-top: 0em;
-}
-
-.search-ville
-{
-
-}
-
-.fa-map-marker-alt
-{
-
 }
 
 .filtres
@@ -151,9 +145,16 @@ form
 #section1 img
 {
 	width: 200px;
-	height: 125px;
+	height: 90px;
 	border: 3px solid white;
 	border-radius: 20px 20px 0px 0px;
+}
+
+#section1 p
+{
+	font-size: 70%;
+	margin-top: 0.1em;
+	padding-left: 1em;
 }
 
 #section2
@@ -168,6 +169,43 @@ border-radius: 20px 20px;
 {
 	width: 100px;
 	height: 100px;
+}
+#pop
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 0px;
+}
+}
+
+#titlepop
+{
+	width: 60%;
+	margin: 1em 1em 1em 0em;
+}
+
+.selection
+{
+	height: 6.4em;
+	width: 84%;
+	border: 2px solid white;
+	border-radius: 20px 20px 20px 20px;
+	margin: 0.6em 0.3em 2em 2em;
+	background-color: white;
+}
+
+#section2 img
+{
+	float: left;
+	border: 2px solid white;
+	border-radius: 20px 0px 0px 20px;
+	margin-right: 1em;
+}
+#section2 p
+{
+	font-size: 70%;
 }
 
 #section3
