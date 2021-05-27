@@ -3,11 +3,30 @@ h1{font-size: 110%;}
 a{text-decoration: none;}
 *{font-family: 'Raleway', sans-serif;}
 .fa-star{color: #0065FC;}
-.fa-map-marker-alt{color: #0065FC;}
-.fa-money-bill-wave{color: #0065FC;}
-.fa-child{color: #0065FC;}
-.fa-heart{color: #0065FC;}
-.fa-dog{color: #0065FC;}
+.fa-map-marker-alt
+{
+	color: #0065FC;
+}
+.fa-money-bill-wave
+{
+	color: #0065FC;
+	font-size: 1em;
+}
+.fa-child
+{
+	color: #0065FC;
+	font-size: 1em;
+}
+.fa-heart
+{
+	color: #0065FC;
+	font-size: 1em;
+}
+.fa-dog
+{
+	color: #0065FC;
+	font-size: 1em;
+}
 header
 {
 	height: 300px;
@@ -20,7 +39,7 @@ header
 {
 	display: flex;
 	justify-content: space-between;
-	align-items: baseline;
+	align-items: center;
 	padding-left: 2em;
 
 }
@@ -36,11 +55,12 @@ header
 	list-style-type: none;
 }
 
-.menu a:
+.menu a
 {
 	color: #0065FC;
 	font-weight: bold;
 }
+
 
 li
 {
@@ -99,10 +119,16 @@ input .search-buttom
 	height: 60px;
 	display: flex;
 	justify-content: flex-start;
-	align-items: baseline;
+	align-items: center;
 	font-size: 70%;
 	font-weight: bold;
 	margin-left: 2.9em;
+}
+
+input
+{
+	margin-left: 0.4em;
+	align-items: center;
 }
 
 #txt
@@ -165,12 +191,13 @@ label
 	justify-content: space-around;
 	align-content: stretch;
 	padding-left: 0px;
+	margin-bottom: 0.5em;
 }
 #section1 h1
 {
 	height: 0.9em;
 	display: flex;
-	margin: 2.9em 0.4em 0em 1.5em;
+	margin: 1em 0.4em 0em 1.5em;
 
 }
 #section1 img
@@ -224,7 +251,7 @@ border-radius: 20px 20px;
 	border: 2px solid white;
 	border-radius: 20px 20px 20px 20px;
 	box-shadow: 3px 3px 9px grey;
-	margin: 0.6em 0.3em 2em 2em;
+	margin: 0.6em 0.9em 2em 1.1em;
 	background-color: white;
 }
 
@@ -242,6 +269,7 @@ border-radius: 20px 20px;
 
 #section3
 {
+	height: 360px;
 	width: 96.5%;
 	display: flex;
 	flex-wrap: wrap;
@@ -249,6 +277,12 @@ border-radius: 20px 20px;
 	border-radius: 20px 20px;
 	overflow: auto;
 	margin: 2em 1em 1em 2em;
+}
+
+.discovery
+{
+	width: 50%;
+	display: flex;
 }
 
 #section3 .tall
@@ -275,11 +309,28 @@ border-radius: 20px 20px;
 	width: 200px;
 }
 
+#section3 img
+{
+	border: 2px solid white;
+	border-radius: 20px 20px 0px 0px;
+}
 
+#section3 div
+{
+	border: 2px solid white
+	margin: 1em 1em 1em 1em;
+	background-color: white;
+}
+
+#section3 strong
+{
+
+}
 
 #section3 p
 {
-
+	margin-top: 0.3em;
+	mar
 }
 
 footer
