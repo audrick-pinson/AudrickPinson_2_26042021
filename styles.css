@@ -3,10 +3,14 @@ h1{font-size: 110%;}
 a{text-decoration: none;}
 *{font-family: 'Raleway', sans-serif;}
 .fa-star{color: #0065FC;}
-
+.fa-map-marker-alt{color: #0065FC;}
+.fa-money-bill-wave{color: #0065FC;}
+.fa-child{color: #0065FC;}
+.fa-heart{color: #0065FC;}
+.fa-dog{color: #0065FC;}
 header
 {
-	height: 300px;
+	height: 350px;
 	width: 100%
 	margin 0 0.4em 0 0.4em;
 
@@ -16,20 +20,26 @@ header
 {
 	display: flex;
 	justify-content: space-between;
+	align-items: baseline;
+	padding-left: 2em;
 
 }
 
 .header2 h2
 {
 	display: flex;
-	font-size:
-
 }
 
 .menu
 {
 	display: flex;
 	list-style-type: none;
+}
+
+.menu a:
+{
+	color: #0065FC;
+	font-weight: bold;
 }
 
 li
@@ -39,12 +49,16 @@ li
 
 .slogan
 {
-	margin-bottom: 0px;
+	width: 52%;
+	margin-left: 1.3em;
+	margin-bottom: 0em;
 }
 
 .sujet
 {
-	margin-top: 0px;
+	width: 25%;
+	margin-top: 0em;
+	margin-left: 2em;
 }
 
 .slogan
@@ -56,6 +70,13 @@ li
 {
 	display: flex;
 	justify-content: flex-start;
+	align-items: baseline;
+	margin-left: 2em;
+}
+
+input .search-buttom
+{
+
 }
 
 #barre-recherche
@@ -63,11 +84,6 @@ li
 	margin-top: 0em;
 }
 
-.filtres
-{
-	display: flex;
-	justify-content: flex-start;
-}
 
 .image
 {
@@ -78,11 +94,20 @@ li
 	box-shadow: 3px 3px 9px grey;
 }
 
-span
+.filtres
 {
-	justify-content: space-around;
-	margin-left: 1em;
-	margin-right: 1em;
+	display: flex;
+	justify-content: flex-start;
+	align-items: baseline;
+	font-size: 70%;
+	font-weight: bold;
+	margin-left: 2.9em;
+}
+
+#txt
+{
+	width: 35%;
+	margin: 0.1em 0em 2em 2em;
 }
 
 form
@@ -96,9 +121,20 @@ form
 	font-weight: bold;
 }
 
-#txt
+.filtres span
 {
-	margin: 0.1em 0 1em 0;
+	border: 3px solid #F2F2F2;
+	border-radius: 20px 20px;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: baseline;
+	margin-left: 1em;
+	margin-right: 0em;
+}
+
+label
+{
+	padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 .rooms
@@ -205,13 +241,13 @@ border-radius: 20px 20px;
 
 #section3
 {
-	width: 90%;
+	width: 96.5%;
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #F2F2F2;
 	border-radius: 20px 20px;
 	overflow: auto;
-
+	margin: 2em 1em 1em 2em;
 }
 
 #section3 .tall
