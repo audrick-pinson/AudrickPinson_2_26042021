@@ -1,13 +1,8 @@
 h1, h2 {color:black;}
-h1
-{
-	font-size: 110%;
-}
+h1{font-size: 110%;}
 a{text-decoration: none;}
-*
-{
-	font-family: 'Raleway', sans-serif;
-}
+*{font-family: 'Raleway', sans-serif;}
+.fa-star{color: #0065FC;}
 
 header
 {
@@ -108,7 +103,6 @@ form
 
 .rooms
 {
-	height:
 	width:99%;
 	display: flex;
 	flex-wrap: wrap;
@@ -192,6 +186,7 @@ border-radius: 20px 20px;
 	width: 84%;
 	border: 2px solid white;
 	border-radius: 20px 20px 20px 20px;
+	box-shadow: 3px 3px 9px grey;
 	margin: 0.6em 0.3em 2em 2em;
 	background-color: white;
 }
@@ -210,15 +205,66 @@ border-radius: 20px 20px;
 
 #section3
 {
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #F2F2F2;
+	border-radius: 20px 20px;
+	overflow: auto;
 
 }
+
+#section3 .tall
+{
+	height: 310px;
+	width: 200px;
+}
+
+#section3 #medium
+{
+	height: 130px;
+	width: 200px;
+}
+
+#section3 #little
+{
+	height: 70px;
+	width: 200px;
+}
+
+#section3 .large
+{
+	height: 110px;
+	width: 200px;
+}
+
+
+
+#section3 p
+{
+
+}
+
 footer
 {
-	height: 200px;
+	height: 150px;
 	display: flex;
 	justify-content: space-around;
+	align-items: baseline;
+	padding-top: 1em;
+	background-color: #F2F2F2;
+	margin: 2em 0em 0em 0em;
 }
 
+footer h2
+{
+	font-size: 80%;
+}
+
+footer li
+{
+	font-size: 70%;
+}
 ul
 {
 	list-style-type: none;
