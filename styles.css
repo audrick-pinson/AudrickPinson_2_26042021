@@ -61,7 +61,6 @@ header
 	font-weight: bold;
 }
 
-
 li
 {
 	padding-right: 30px;
@@ -108,7 +107,7 @@ input .search-buttom
 .image
 {
 	border: 1px solid white;
-	margin: 0.6em 0.6em 2em 0.6em;
+	margin: 0.6em 0.6em 1.4em 0.6em;
 	background-color: white;
 	border-radius: 20px 20px;
 	box-shadow: 3px 3px 9px grey;
@@ -135,6 +134,11 @@ input
 {
 	width: 35%;
 	margin: 1em 0em 2em 2em;
+}
+
+#txt i
+{
+	margin-right: 0.5em;
 }
 
 form
@@ -176,12 +180,13 @@ label
 
 #section1
 {
-	width: 70%;
+	width: 63%;
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #F2F2F2;
 	border-radius: 20px 20px;
 	overflow: auto;
+	margin: 0em 0em 2em 1em;
 }
 
 #element
@@ -190,14 +195,15 @@ label
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-content: stretch;
-	padding-left: 0px;
+	padding-left: 1em;
+	padding-right: 1em;
 	margin-bottom: 0.5em;
 }
 #section1 h1
 {
 	height: 0.9em;
 	display: flex;
-	margin: 1em 0.4em 0em 1.5em;
+	margin: 1.8em 0.4em 1.3em 1.5em;
 
 }
 #section1 img
@@ -220,14 +226,16 @@ label
 #plus
 {
 	font-weight: bold;
+	margin: 0em 1em 2em 2.5em;
 }
 
 #section2
 {
-width: 25%;
+width: 29%;
 float: right;
 background-color: #F2F2F2;
 border-radius: 20px 20px;
+margin: 0em 1em 2em 0em;
 }
 
 #section2 img
@@ -242,23 +250,24 @@ border-radius: 20px 20px;
 	justify-content: space-around;
 	align-items: center;
 	margin-right: 0px;
+	margin-top: 1em;
 }
 }
 
 #titlepop
 {
 	width: 60%;
-	margin: 1em 1em 1em 0em;
+	margin: 0.8em 1em 1em 0em;
 }
 
 .selection
 {
 	height: 6.4em;
-	width: 84%;
+	width: 78%;
 	border: 2px solid white;
 	border-radius: 20px 20px 20px 20px;
 	box-shadow: 3px 3px 9px grey;
-	margin: 0.6em 0.9em 2em 1.1em;
+	margin: 0.8em 1.6em 2em 2.3em;
 	background-color: white;
 }
 
@@ -273,7 +282,26 @@ border-radius: 20px 20px;
 }
 #section2 p
 {
+	width: 80%;
 	font-size: 70%;
+	margin: 1em 1em 2.6em 1em;
+}
+
+.selection .fa-star
+{
+	font-size: 70%;
+}
+
+.selection .pricenight
+{
+	font-size: 86%;
+}
+
+.star .fa-star
+{
+	color: grey;
+	opacity: 0.4;
+}
 }
 
 #section3
@@ -344,7 +372,7 @@ border-radius: 20px 20px;
 
 footer
 {
-	height: 150px;
+	height: 100px;
 	display: flex;
 	justify-content: space-around;
 	align-items: baseline;
