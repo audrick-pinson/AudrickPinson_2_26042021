@@ -2,7 +2,9 @@ h1, h2 {color:black;}
 h1{font-size: 110%;}
 a{text-decoration: none;}
 *{font-family: 'Raleway', sans-serif;}
-.fa-star{color: #0065FC;}
+.fa-star{color: #0065FC;
+}
+.fa-info-circle{color: #0065FC;}
 .fa-map-marker-alt
 {
 	color: #0065FC;
@@ -29,7 +31,7 @@ a{text-decoration: none;}
 }
 header
 {
-	height: 300px;
+	height: 260px;
 	width: 100%
 	margin 0em 0.4em 1em 0.4em;
 
@@ -40,13 +42,8 @@ header
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-left: 2em;
+	padding-left: 2.3em;
 
-}
-
-.header2 h2
-{
-	display: flex;
 }
 
 .menu
@@ -69,7 +66,7 @@ li
 .slogan
 {
 	width: 52%;
-	margin-left: 1.3em;
+	margin-left: 1.6em;
 	margin-bottom: 0em;
 }
 
@@ -77,30 +74,34 @@ li
 {
 	width: 25%;
 	margin-top: 0em;
-	margin-left: 2em;
+	margin-left: 2.6em;
 }
 
 .slogan
 {
-	font-size: 25px;
+	font-size: 20px;
+	margin-left: 2.1em;
 }
 
 .search
 {
+	border-radius: 1px solid black;
 	display: flex;
 	justify-content: flex-start;
 	align-items: baseline;
-	margin-left: 2em;
+	margin-left: 3em;
 }
 
-input .search-buttom
+input [type="submit"]
 {
-
+	background-color: #0065FC;
+	padding: 1em 1em 1em 1em;
 }
 
 #barre-recherche
 {
 	margin-top: 0em;
+	margin-left: 0.5em;
 }
 
 
@@ -121,19 +122,38 @@ input .search-buttom
 	align-items: center;
 	font-size: 70%;
 	font-weight: bold;
-	margin-left: 2.9em;
+	margin-left: 4em;
 }
 
-input
+
+.filtres input
 {
-	margin-left: 0.4em;
-	align-items: center;
+	display: none;
+}
+
+.filtres .icone
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin: 0em;
+	padding: 0em;
+	align-items: baseline;
+	float: left;
+	background-color: #DEEBFF;
+}
+
+.filtres i
+{
+	margin-top: 0.6em;
+	margin-left: 0.6em;
+	align-items: baseline;
 }
 
 #txt
 {
 	width: 35%;
-	margin: 1em 0em 2em 2em;
+	margin: 0em 0em 2em 3em;
 }
 
 #txt i
@@ -155,12 +175,10 @@ form
 .filtres span
 {
 	border: 3px solid #F2F2F2;
-	border-radius: 20px 20px;
+	border-radius: 40px 40px;
 	display: inline-flex;
-	justify-content: space-around;
-	align-items: baseline;
 	margin-left: 1em;
-	margin-right: 0em;
+	padding:0em 0.4em 0em 0em;
 }
 
 label
@@ -203,7 +221,7 @@ label
 {
 	height: 0.9em;
 	display: flex;
-	margin: 1.8em 0.4em 1.3em 1.5em;
+	margin: 1.8em 0.4em 1.3em 2em;
 
 }
 #section1 img
