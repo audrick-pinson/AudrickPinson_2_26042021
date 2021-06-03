@@ -52,6 +52,11 @@ header
 	list-style-type: none;
 }
 
+a:hover
+{
+	border-top: 1px solid blue;
+}
+
 .menu a
 {
 	color: #0065FC;
@@ -112,7 +117,7 @@ li
 }
 
 
-.image
+.rooms-proposition
 {
 	border: 1px solid white;
 	margin: 0.6em 0.6em 1.4em 0.6em;
@@ -214,7 +219,7 @@ label
 	margin: 0em 0em 2em 1em;
 }
 
-#element
+#article
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -224,6 +229,7 @@ label
 	padding-right: 1em;
 	margin-bottom: 0.5em;
 }
+
 #section1 h1
 {
 	height: 0.9em;
@@ -268,7 +274,7 @@ margin: 0em 1em 2em 0em;
 	width: 100px;
 	height: 100px;
 }
-#pop
+#les-plus-populaires
 {
 	display: flex;
 	flex-direction: row;
@@ -276,13 +282,6 @@ margin: 0em 1em 2em 0em;
 	align-items: center;
 	margin-right: 0px;
 	margin-top: 1em;
-}
-}
-
-#titlepop
-{
-	width: 60%;
-	margin: 0.8em 1em 1em 0em;
 }
 
 .selection
@@ -328,14 +327,7 @@ margin: 0em 1em 2em 0em;
 	opacity: 0.4;
 }
 
-
-.discovery
-{
-	width: 50%;
-	display: flex;
-}
-
-span h1
+#titre-activite-marseille h1
 {
 	margin-left: 3em;
 }
@@ -382,6 +374,18 @@ span h1
 	object-position: center;
 }
 
+.activites-fort-pomegues
+{
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 3px 3px 9px #F2F2F2;
+}
+
+.activites-notre-dame
+{
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 3px 3px 9px #F2F2F2;
+}
+
 .activites
 {
 	border-radius: 15px 15px 15px 15px;
@@ -409,7 +413,6 @@ span h1
 	height: 30px;
 	margin-top: 0.6em;
 	margin-left: 0.8em;
-
 }
 
 footer
