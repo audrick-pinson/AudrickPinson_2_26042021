@@ -1,211 +1,198 @@
-h1, h2 {color:black;}
+h1, h2
+{
+	color:black;
+	font-weight: bold;;
+}
 h1{font-size: 110%;}
+h2{font-size: 110%;}
 a{text-decoration: none;}
 *{font-family: 'Raleway', sans-serif;}
-.fa-star{color: #0065FC;
-}
-.fa-info-circle{color: #0065FC;}
-.fa-map-marker-alt
+
+
+.fa-star{color: #0065FC}/* cette parti est dédier à la notation étoilé*/
+.star .fa-star
 {
-	color: #0065FC;
+	color: grey;
+	opacity: 0.4;
 }
-.fa-money-bill-wave
-{
-	color: #0065FC;
-	font-size: 1em;
-}
-.fa-child
-{
-	color: #0065FC;
-	font-size: 1em;
-}
-.fa-heart
-{
-	color: #0065FC;
-	font-size: 1em;
-}
-.fa-dog
-{
-	color: #0065FC;
-	font-size: 1em;
-}
+.fa-map-marker-alt{color: #0065FC}
+.fa-money-bill-wave{color: #0065FC}
+.fa-child{color: #0065FC}
+.fa-heart{color: #0065FC}
+.fa-dog{color: #0065FC}
+
 header
 {
-	height: 260px;
-	width: 100%
-	margin 0em 0.4em 1em 0.4em;
-
+	width: 100%;
+	margin: 0em 1em 0em 2em;
 }
 
 .header1
 {
+	width: 98%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
-	padding-left: 2.3em;
-
 }
 
-.menu
+header .menu
 {
-	display: flex;
+	margin-left: 41em;
 	list-style-type: none;
+	display: flex;
 }
 
-a:hover
+.menu li
 {
-	border-top: 1px solid blue;
+	padding-left: 2.5em;
 }
 
 .menu a
 {
 	color: #0065FC;
+}
+
+.menu .login
+{
 	font-weight: bold;
 }
 
-li
+.menu a:hover
 {
-	padding-right: 30px;
+	color: black;
+	padding-top: 1em;
+	border-top: 1px solid #0065FC;
 }
 
-.slogan
+.header2 h1
 {
-	width: 52%;
-	margin-left: 1.6em;
-	margin-bottom: 0em;
+	width: 80%;
+	margin-bottom: 0.3em;
 }
 
 .sujet
 {
-	width: 25%;
-	margin-top: 0em;
-	margin-left: 2.6em;
-}
-
-.slogan
-{
-	font-size: 20px;
-	margin-left: 2.1em;
+	font-size: 90%;
 }
 
 .search
 {
-	border-radius: 1px solid black;
 	display: flex;
-	justify-content: flex-start;
-	align-items: baseline;
-	margin-left: 3em;
 }
 
-.search-marker
+span.search-marker
 {
-	font-size: 20px;
 	background-color: #F2F2F2;
-	margin-top: 0em;
+	width: 35px;
+	border-radius: 10px 0px 0px 10px;
 }
 
-.search-buttom input [type="submit"]
+i.fas.fa-map-marker-alt
 {
-	background-color: #0065FC;
-	padding: 1em 1em 1em 1em;
+	position: absolute;
+	left: 55px;
+	top: 147px;
 }
 
-#barre-recherche
+input.search-ville
 {
-	margin-top: 0em;
-	margin-left: 0.5em;
+	height: 39px;
+	font-weight: bold;
+	border: 2px solid #F2F2F2;
+	padding-left: 1em;
 }
 
-
-.rooms-proposition
+input.search-buttom
 {
-	border: 1px solid white;
-	margin: 0.6em 0.6em 1.4em 0.6em;
-	background-color: white;
-	border-radius: 20px 20px;
-	box-shadow: 3px 3px 9px grey;
+	height: 39px;
+	width: 100px;
+	color: white;
+	border:none;
+	background: #0065FC;
+	font-weight: bold;
+	border-radius: 0px 10px 10px 0px;
+	margin: -4px;
 }
 
 .filtres
 {
-	height: 60px;
 	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	font-size: 70%;
 	font-weight: bold;
-	margin-left: 4em;
+	align-items: baseline;
+	margin-top: 1em;
 }
 
+.filtres span
+{
+	height: 1.5em;
+	display: inline-flex;
+	justify-content: space-around;
+	margin-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	border: 2px solid #F2F2F2;
+	border-radius: 30px 30px 30px 30px;
+}
 
 .filtres input
+{display: none;
+}
+
+label
 {
-	display: none;
+	text-align: center;
+	margin-bottom: 1em;
+	padding-left: 2em;
 }
 
 .filtres .icone
 {
-	height: 40px;
-	width: 40px;
+	height: 35px;
+	width: 35px;
 	border-radius: 50%;
 	margin: 0em;
 	padding: 0em;
 	align-items: baseline;
 	float: left;
-	background-color: #DEEBFF;
-}
+	text-align: center;
+	background-color:;
+ }
 
-.filtres i
+.filtres i .fa-money-bill-wave
 {
-	margin-top: 0.6em;
-	margin-left: 0.6em;
-	align-items: baseline;
+	height: 30px;
+	width: 30px;
+	font-size: 15px;
+	border-radius: 50%;
+	margin-right: 1em;
 }
 
 #txt
 {
-	width: 35%;
-	margin: 0em 0em 2em 3em;
+	font-size: 90%;
+	margin: 1.5em 1em 1.5em 2em;
 }
 
 #txt i
 {
-	margin-right: 0.5em;
-}
-
-form
-{
-	display: block;
-	font-size: 1.5em;
-	margin-block-start: 0.83em;
-	margin-block-end: 0.83em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-	font-weight: bold;
-}
-
-.filtres span
-{
-	border: 3px solid #F2F2F2;
-	border-radius: 40px 40px;
-	display: inline-flex;
-	margin-left: 1em;
-	padding:0em 0.4em 0em 0em;
-}
-
-label
-{
+	margin-right: 1em;
+	color: #0065FC;
 	padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
+i.fas.fa-info {
+	width: 15px;
+	border: 1px solid #F2F2F2;
+	border-radius: 50%;
+	align-items: center;
+}
 .rooms
 {
-	width:99%;
+	width: 98%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	margin: 1em 1em 1em 1em;
-
 }
 
 #section1
@@ -213,133 +200,161 @@ label
 	width: 63%;
 	display: flex;
 	flex-wrap: wrap;
+	border-radius: 15px 15px 15px 15px;
 	background-color: #F2F2F2;
-	border-radius: 20px 20px;
-	overflow: auto;
-	margin: 0em 0em 2em 1em;
-}
-
-#article
-{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
 	align-content: stretch;
-	padding-left: 1em;
-	padding-right: 1em;
-	margin-bottom: 0.5em;
+	justify-content: flex-start;
 }
 
 #section1 h1
 {
-	height: 0.9em;
-	display: flex;
-	margin: 1.8em 0.4em 1.3em 2em;
-
+	height: 20px;
+	margin: 1.5em 0em 1em 2.4em;
 }
+
+#section1 #article
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.rooms-proposition
+{
+	width: 28%;
+	border-radius: 15px 15px 15px 15px;
+	background-color: white;
+	box-shadow: 1px 1px 9px grey;
+	margin-bottom: 2em;
+}
+
 #section1 img
 {
-	width: 200px;
 	height: 90px;
+	width: 96.7%;
 	border: 3px solid white;
-	border-radius: 20px 20px 0px 0px;
+	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
 	object-position: center;
 }
 
+
 #section1 p
 {
-	font-size: 70%;
-	margin-top: 0.1em;
-	padding-left: 1em;
+	color: black;
+	font-size: 12px;
+	margin: 0em 0em 0em 1em ;
 }
 
-#plus
+#section1 p strong
+{font-weight: bold;}
+
+#section1 .pricenight
 {
+	font-size: 10px;
+}
+
+#section1 i
+{margin-top: 0.4em;}
+
+#section1 #plus
+{
+	margin-left: 2.4em;
+	margin-bottom: 2em;
+}
+
+#section1 #plus a
+{
+	color: black;
 	font-weight: bold;
-	margin: 0em 1em 2em 2.5em;
 }
 
 #section2
 {
-width: 29%;
-float: right;
-background-color: #F2F2F2;
-border-radius: 20px 20px;
-margin: 0em 1em 2em 0em;
+	width: 29%;
+	background-color: #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#section2 #les-plus-populaires
+{
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: baseline;
+	margin: 0em 0em 0.5em 2.4em;
+}
+
+#section2 h1
+{
+	margin-right: 5em;
+}
+
+#section2 .selection
+{
+	width: 75%;
+	display: inline-block;
+	background-color: white;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 9px grey;
+	margin: 0em  0em 2em 2.4em;
+
 }
 
 #section2 img
 {
 	width: 100px;
 	height: 100px;
-}
-#les-plus-populaires
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	margin-right: 0px;
-	margin-top: 1em;
-}
-
-.selection
-{
-	height: 6.4em;
-	width: 78%;
-	border: 2px solid white;
-	border-radius: 20px 20px 20px 20px;
-	box-shadow: 3px 3px 9px grey;
-	margin: 0.8em 1.6em 2em 2.3em;
-	background-color: white;
-}
-
-#section2 img
-{
 	float: left;
-	border: 2px solid white;
-	border-radius: 20px 0px 0px 20px;
-	margin-right: 1em;
 	object-fit: cover;
 	object-position: center;
+	border: 3px solid white;
+	border-radius: 15px 0px 0px 15px;
 }
+
 #section2 p
 {
-	width: 80%;
-	font-size: 70%;
-	margin: 1em 1em 2.6em 1em;
+	width: 40%;
+	float: left;
+	color: black;
+	font-size: 12px;
+	margin-left: 1em;
+	margin-bottom: 0px;
 }
 
-.selection .fa-star
+#section2 .pricenight
 {
-	font-size: 70%;
+	font-size: 10px;
 }
 
-.selection .pricenight
+#section2 span i
 {
-	font-size: 86%;
+	margin-top: 2em;
 }
 
-.star .fa-star
+#titre-activite-marseille
 {
-	color: grey;
-	opacity: 0.4;
-}
-
-#titre-activite-marseille h1
-{
-	margin-left: 3em;
+	margin: 2em 0em 1em 1.5em;
 }
 
 #section3
 {
-	height: 360px;
-	width: 92%;
+	width: 98%;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-around;
-	margin: 2em 1em 1em 2em;
+	margin-bottom: 3em;
+}
+
+#section3 .activites
+{
+	height: 358px;
+	box-shadow: 1px 1px 9px #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.activites p
+{
+	color: black;
+	margin: 0.5em 0em 0em 1em;
 }
 
 #section3 .tall
@@ -348,6 +363,21 @@ margin: 0em 1em 2em 0em;
 	width: 255px;
 	object-fit: cover;
 	object-position: center;
+	border-radius: 15px 15px 0px 0px;
+}
+
+#section3 .activites-fort-pomegues
+{
+	box-shadow: 1px 1px 1px #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	margin-bottom: 2.7em;
+}
+
+.activites-fort-pomegues p
+{
+	color: black;
+	margin: 0.5em 0em 1em 1em;
+	padding-bottom: 1em;
 }
 
 #section3 #medium
@@ -356,6 +386,20 @@ margin: 0em 1em 2em 0em;
 	width: 255px;
 	object-fit: cover;
 	object-position: center;
+	border-radius: 15px 15px 0px 0px;
+}
+
+#section3 .activites-ile-frioul
+{
+	box-shadow: 1px 1px 9px #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.activites-ile-frioul p
+{
+	color: black;
+	margin: 0.5em 0em 1em 1em;
+	padding-bottom: 1em;
 }
 
 #section3 #little
@@ -364,88 +408,177 @@ margin: 0em 1em 2em 0em;
 	width: 255px;
 	object-fit: cover;
 	object-position: center;
+	border-radius: 15px 15px 0px 0px;
 }
 
+#section3 .activites-notre-dame
+{
+	box-shadow: 1px 1px 9px #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	margin-bottom: 2.7em;
+}
+
+.activites-notre-dame p
+{
+	color: black;
+	margin: 0.5em 0em 1em 1em;
+	padding-bottom: 1em;
+}
+
+#section3 .activites-parc-longchamp
+{
+	box-shadow: 1px 1px 9px #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.activites-parc-longchamp p
+{
+	color: black;
+	margin: 0.5em 0em 1em 1em;
+	padding-bottom: 1em;
+}
 #section3 .large
 {
 	height: 110px;
 	width: 255px;
 	object-fit: cover;
 	object-position: center;
-}
-
-.activites-fort-pomegues
-{
-	border-radius: 15px 15px 15px 15px;
-	box-shadow: 3px 3px 9px #F2F2F2;
-}
-
-.activites-notre-dame
-{
-	border-radius: 15px 15px 15px 15px;
-	box-shadow: 3px 3px 9px #F2F2F2;
-}
-
-.activites
-{
-	border-radius: 15px 15px 15px 15px;
-	box-shadow: 3px 3px 9px #F2F2F2;
-}
-
-#section3 img
-{
 	border-radius: 15px 15px 0px 0px;
 }
 
-#section3 div
-{
-	border: 2px solid white
-	margin: 1em 1em 1em 1em;
-}
-
-#section3 strong
-{
-
-}
-
-#section3 p
-{
-	height: 30px;
-	margin-top: 0.6em;
-	margin-left: 0.8em;
-}
 
 footer
 {
-	height: 120px;
+	width: 100%;
 	display: flex;
 	justify-content: flex-start;
-	align-items: baseline;
-	padding-top: 1em;
 	background-color: #F2F2F2;
-	margin: 2em 0em 0em 0em;
-}
-
-footer h2
-{
-	font-size: 80%;
-}
-
-footer ul
-{
-	list-style-type: none;
-	padding-left: 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-footer li
-{
-	font-size: 70%;
 }
 
 .info
 {
-	padding-left: 2em;
-	padding-right: 12em;
+	width: 33%;
+	margin-left: 1.8em;
+}
+
+footer ul
+{
+	padding-left: 0px;
+	margin: 0em 0em 0.5em 0em;
+}
+
+footer li
+{
+	font-size: 80%;
+	padding-bottom: 1em;
+	list-style-type: none;
+}
+
+footer a
+{
+	color: black;
+}
+
+/* instruction nouvelle pour le responsive*/
+
+@media all and (orientation: portrait)
+{
+
+			header
+			{
+				width: auto;
+				margin: 1em 0em 0em 0em;
+			}
+
+			.header1
+			{
+
+			}
+
+			.menu
+			{
+				display: inline-flex;
+				flex-wrap: wrap;
+			}
+
+			.rooms
+			{
+				width: auto;
+				display: inline-block;
+			}
+
+			#section1
+			{
+				width: 100%;
+				margin: 0px;
+				background-color: white;
+			}
+
+			#section1 #article
+			{
+				width: auto;
+				display: inline-block;
+			}
+
+			.rooms-proposition
+			{
+				margin: auto;
+				margin-bottom: 2em;
+			}
+
+			#section2
+			{
+				width: 100%;
+				background-color: white;
+			}
+
+			#section2 .selection
+			{
+				margin: 1em;
+			}
+
+			#section3
+			{
+				width: auto;
+				display: inline-block;
+				margin: 1em;
+			}
+
+			#section3 .activites
+			{
+				margin-bottom: 1em;
+			}
+
+			.activites-fort-pomegues
+			{
+				margin-bottom: 1em;
+			}
+
+				.activites-notre-dame
+				{
+					margin-bottom: 1em;
+				}
+
+				#lieu-visite-box2
+				{
+					margin-bottom: 1em;
+				}
+
+				#lieu-visite-box4
+				{
+					margin-bottom: 1em;
+				}
+
+			footer
+			{
+				width: 100%;
+				display: inline-block;
+			}
+
+			.info
+			{
+				width: 50%;
+			}
+
+
 }
