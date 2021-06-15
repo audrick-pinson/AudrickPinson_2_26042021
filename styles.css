@@ -21,17 +21,18 @@ a{text-decoration: none;}
 .fa-heart{color: #0065FC}
 .fa-dog{color: #0065FC}
 
+body{margin: 0em;}
+
 header
 {
 	width: 100%;
-	margin: 0em 1em 0em 2em;
 }
 
 .header1
 {
-	width: 98%;
+	width: 100%;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -82,6 +83,7 @@ header .menu
 
 span.search-marker
 {
+	text-align: center;
 	background-color: #F2F2F2;
 	width: 35px;
 	border-radius: 10px 0px 0px 10px;
@@ -171,7 +173,8 @@ label
 #txt
 {
 	font-size: 90%;
-	margin: 1.5em 1em 1.5em 2em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 #txt i
@@ -189,7 +192,7 @@ i.fas.fa-info {
 }
 .rooms
 {
-	width: 98%;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -203,13 +206,7 @@ i.fas.fa-info {
 	border-radius: 15px 15px 15px 15px;
 	background-color: #F2F2F2;
 	align-content: stretch;
-	justify-content: flex-start;
-}
-
-#section1 h1
-{
-	height: 20px;
-	margin: 1.5em 0em 1em 2.4em;
+	padding: 1em;
 }
 
 #section1 #article
@@ -231,7 +228,7 @@ i.fas.fa-info {
 #section1 img
 {
 	height: 90px;
-	width: 96.7%;
+	width: 97.4%;
 	border: 3px solid white;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
@@ -260,7 +257,6 @@ i.fas.fa-info {
 #section1 #plus
 {
 	margin-left: 2.4em;
-	margin-bottom: 2em;
 }
 
 #section1 #plus a
@@ -271,33 +267,34 @@ i.fas.fa-info {
 
 #section2
 {
-	width: 29%;
+	width: 25%;
 	background-color: #F2F2F2;
 	border-radius: 15px 15px 15px 15px;
+	padding: 2em 2em 0em 2em;
 }
 
 #section2 #les-plus-populaires
 {
-	display: inline-flex;
-	justify-content: space-around;
+	display: flex;
+	justify-content: space-between;
 	align-items: baseline;
-	margin: 0em 0em 0.5em 2.4em;
+	margin-bottom: 1.5em;
 }
 
 #section2 h1
 {
-	margin-right: 5em;
+	margin-top: 0em;
+	margin-bottom: 0em;
 }
 
 #section2 .selection
 {
-	width: 75%;
+	width: 100%;
 	display: inline-block;
 	background-color: white;
 	border-radius: 15px 15px 15px 15px;
 	box-shadow: 1px 1px 9px grey;
-	margin: 0em  0em 2em 2.4em;
-
+	margin-bottom: 2em;
 }
 
 #section2 img
@@ -326,11 +323,6 @@ i.fas.fa-info {
 	font-size: 10px;
 }
 
-#section2 span i
-{
-	margin-top: 2em;
-}
-
 #titre-activite-marseille
 {
 	margin: 2em 0em 1em 1.5em;
@@ -338,7 +330,7 @@ i.fas.fa-info {
 
 #section3
 {
-	width: 98%;
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	margin-bottom: 3em;
