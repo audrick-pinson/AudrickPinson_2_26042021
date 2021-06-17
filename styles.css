@@ -51,12 +51,12 @@ header .menu
 .menu a
 {
 	color: #0065FC;
+	padding-top: 0.85em;
 }
 
 .menu .lodging
 {
 	border-top: 2px solid #0065FC;
-	padding-top: 0.8em;
 }
 
 .menu #nav-activite
@@ -72,8 +72,8 @@ header .menu
 .menu a:hover
 {
 	color: black;
-	padding-top: 1em;
-	border-top: 1px solid #0065FC;
+	border-top: 2px solid #0065FC;
+
 }
 
 .header2 h1
@@ -129,6 +129,12 @@ input.search-buttom
 	margin-top: 1em;
 }
 
+.filtres .filtres-div
+{
+	font-weight: bold;
+	align-items: baseline;
+}
+
 .filtres span
 {
 	height: 1.5em;
@@ -147,7 +153,7 @@ input.search-buttom
 label
 {
 	text-align: center;
-	padding-top: 0.3em;
+	padding-top: 0.45em;
 }
 
 .filtres .icone
@@ -167,12 +173,18 @@ label
 	font-size: 15px;
 	border-radius: 50%;
 	margin-right: 1em;
-	padding-top: 7px;
+	padding-top: 10px;
 }
 
-.filtres i:hover
+.filtres span:hover
 {
-	color: #F2F2F2;
+	color: #0065F7;
+}
+
+
+.filtres span:hover i
+{
+	color: black;
 }
 
 #txt
@@ -382,7 +394,7 @@ div#lieu-visite-box2
 
 #section3 .activites-fort-pomegues
 {
-	box-shadow: 1px 1px 1px #F2F2F2;
+	box-shadow: 1px 1px 9px #F2F2F2;
 	border-radius: 15px 15px 15px 15px;
 	margin-bottom: 2.7em;
 }
