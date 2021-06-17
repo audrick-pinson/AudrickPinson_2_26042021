@@ -246,6 +246,7 @@ h2#lodging
 	background-color: white;
 	box-shadow: 1px 1px 9px grey;
 	margin-bottom: 2em;
+	overflow: hidden;
 }
 
 #section1 img
