@@ -25,7 +25,8 @@ body{margin: 0em;}
 
 header
 {
-	width: 100%;
+	width: 95%;
+	margin-left: 1em;
 }
 
 .header1
@@ -38,7 +39,6 @@ header
 
 header .menu
 {
-	margin-left: 41em;
 	list-style-type: none;
 	display: flex;
 }
@@ -51,6 +51,17 @@ header .menu
 .menu a
 {
 	color: #0065FC;
+}
+
+.menu .lodging
+{
+	border-top: 2px solid #0065FC;
+	padding-top: 0.8em;
+}
+
+.menu #nav-activite
+{
+	color: black;
 }
 
 .menu .login
@@ -84,16 +95,10 @@ header .menu
 span.search-marker
 {
 	text-align: center;
+	padding-top: 10px;
 	background-color: #F2F2F2;
 	width: 35px;
 	border-radius: 10px 0px 0px 10px;
-}
-
-i.fas.fa-map-marker-alt
-{
-	position: absolute;
-	left: 55px;
-	top: 147px;
 }
 
 input.search-ville
@@ -120,7 +125,7 @@ input.search-buttom
 {
 	display: flex;
 	font-weight: bold;
-	align-items: baseline;
+	align-items: center;
 	margin-top: 1em;
 }
 
@@ -130,9 +135,7 @@ input.search-buttom
 	display: inline-flex;
 	justify-content: space-around;
 	margin-left: 1em;
-	padding-right: 1em;
-	padding-top: 0.3em;
-	padding-bottom: 0.3em;
+	padding: 0em 1em 0.7em 0em;
 	border: 2px solid #F2F2F2;
 	border-radius: 30px 30px 30px 30px;
 }
@@ -144,8 +147,7 @@ input.search-buttom
 label
 {
 	text-align: center;
-	margin-bottom: 1em;
-	padding-left: 2em;
+	padding-top: 0.3em;
 }
 
 .filtres .icone
@@ -153,21 +155,24 @@ label
 	height: 35px;
 	width: 35px;
 	border-radius: 50%;
-	margin: 0em;
-	padding: 0em;
-	align-items: baseline;
-	float: left;
 	text-align: center;
-	background-color:;
- }
+	background-color: #DEEBFF;
+	margin-right: 1em;
+}
 
-.filtres i .fa-money-bill-wave
+.filtres i
 {
 	height: 30px;
 	width: 30px;
 	font-size: 15px;
 	border-radius: 50%;
 	margin-right: 1em;
+	padding-top: 7px;
+}
+
+.filtres i:hover
+{
+	color: #F2F2F2;
 }
 
 #txt
@@ -175,18 +180,20 @@ label
 	font-size: 90%;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
+	margin-left: 1em;
 }
 
 #txt i
 {
 	margin-right: 1em;
+	text-align: center;
 	color: #0065FC;
 	padding: 0.5em 0.5em 0.5em 0.5em;
 }
 
 i.fas.fa-info {
 	width: 15px;
-	border: 1px solid #F2F2F2;
+	border: 2px solid #F2F2F2;
 	border-radius: 50%;
 	align-items: center;
 }
@@ -200,13 +207,17 @@ i.fas.fa-info {
 
 #section1
 {
-	width: 63%;
+	width: 66%;
 	display: flex;
 	flex-wrap: wrap;
 	border-radius: 15px 15px 15px 15px;
 	background-color: #F2F2F2;
 	align-content: stretch;
-	padding: 1em;
+}
+
+h2#lodging
+{
+	margin: 1.6em 0em 0em 2em;
 }
 
 #section1 #article
@@ -267,7 +278,7 @@ i.fas.fa-info {
 
 #section2
 {
-	width: 25%;
+	width: 23%;
 	background-color: #F2F2F2;
 	border-radius: 15px 15px 15px 15px;
 	padding: 2em 2em 0em 2em;
@@ -281,7 +292,7 @@ i.fas.fa-info {
 	margin-bottom: 1.5em;
 }
 
-#section2 h1
+#section2 h2
 {
 	margin-top: 0em;
 	margin-bottom: 0em;
@@ -323,6 +334,11 @@ i.fas.fa-info {
 	font-size: 10px;
 }
 
+#section2 span i
+{
+	margin-top: 2.5em;
+}
+
 #titre-activite-marseille
 {
 	margin: 2em 0em 1em 1.5em;
@@ -339,6 +355,7 @@ i.fas.fa-info {
 #section3 .activites
 {
 	height: 358px;
+	width: 22%;
 	box-shadow: 1px 1px 9px #F2F2F2;
 	border-radius: 15px 15px 15px 15px;
 }
@@ -352,10 +369,15 @@ i.fas.fa-info {
 #section3 .tall
 {
 	height: 310px;
-	width: 255px;
+	width: 100%;
 	object-fit: cover;
 	object-position: center;
 	border-radius: 15px 15px 0px 0px;
+}
+
+div#lieu-visite-box2
+{
+	width: 22%;
 }
 
 #section3 .activites-fort-pomegues
@@ -375,7 +397,7 @@ i.fas.fa-info {
 #section3 #medium
 {
 	height: 130px;
-	width: 255px;
+	width: 100%;
 	object-fit: cover;
 	object-position: center;
 	border-radius: 15px 15px 0px 0px;
@@ -397,10 +419,15 @@ i.fas.fa-info {
 #section3 #little
 {
 	height: 90px;
-	width: 255px;
+	width: 100%;
 	object-fit: cover;
 	object-position: center;
 	border-radius: 15px 15px 0px 0px;
+}
+
+div#lieu-visite-box4
+{
+	width: 22%;
 }
 
 #section3 .activites-notre-dame
@@ -432,7 +459,7 @@ i.fas.fa-info {
 #section3 .large
 {
 	height: 110px;
-	width: 255px;
+	width: 100%;
 	object-fit: cover;
 	object-position: center;
 	border-radius: 15px 15px 0px 0px;
@@ -473,18 +500,13 @@ footer a
 
 /* instruction nouvelle pour le responsive*/
 
-@media all and (orientation: portrait)
+@media all screen (min-width: 470px) and (max-width: 1400px) /*ou alors utiliser...: all screen(ecran classique) and handheld(peripherique mobile) a demander*/
 {
 
 			header
 			{
 				width: auto;
 				margin: 1em 0em 0em 0em;
-			}
-
-			.header1
-			{
-
 			}
 
 			.menu
@@ -522,6 +544,8 @@ footer a
 			{
 				width: 100%;
 				background-color: white;
+				border-radius: 0px;
+
 			}
 
 			#section2 .selection
@@ -529,16 +553,21 @@ footer a
 				margin: 1em;
 			}
 
+			#section2 span i
+			{
+
+			}
+
 			#section3
 			{
-				width: auto;
+				width: 100%;
 				display: inline-block;
-				margin: 1em;
 			}
 
 			#section3 .activites
 			{
-				margin-bottom: 1em;
+				width: 100%;
+				margin: 1em;
 			}
 
 			.activites-fort-pomegues
@@ -553,12 +582,14 @@ footer a
 
 				#lieu-visite-box2
 				{
-					margin-bottom: 1em;
+					width: 100%;
+					margin: 1em;
 				}
 
 				#lieu-visite-box4
 				{
-					margin-bottom: 1em;
+					width: 100%;
+					margin: 1em;
 				}
 
 			footer
