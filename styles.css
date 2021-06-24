@@ -76,6 +76,13 @@ header .menu
 
 }
 
+nav
+{
+	display: flex;
+	flex-wrap: wrap;
+	width: 38%;
+}
+
 .header2 h1
 {
 	width: 80%;
@@ -90,6 +97,7 @@ header .menu
 .search
 {
 	display: flex;
+	margin-top: 1em;
 }
 
 span.search-marker
@@ -99,6 +107,11 @@ span.search-marker
 	background-color: #F2F2F2;
 	width: 35px;
 	border-radius: 10px 0px 0px 10px;
+}
+
+i.fas.fa-map-marker-alt
+{
+	color: black;
 }
 
 input.search-ville
@@ -135,7 +148,7 @@ input.search-buttom
 	align-items: baseline;
 }
 
-.filtres span
+.filtres span:not(.icone)
 {
 	height: 1.5em;
 	display: inline-flex;
@@ -305,14 +318,19 @@ h2#lodging
 	margin-bottom: 1.5em;
 }
 
+#section2 .selection a
+{
+	display: flex;
+}
+
+
 #section2 h2
 {
 	margin-top: 0em;
 	margin-bottom: 0em;
 }
 
-#section2 .selection
-{
+ {
 	width: 100%;
 	display: inline-block;
 	background-color: white;
@@ -321,11 +339,17 @@ h2#lodging
 	margin-bottom: 2em;
 }
 
+.selection {
+	background-color: white;
+	margin-bottom: 2em;
+	border-radius: 15px;
+	box-shadow: 1px 1px 9px grey;
+}
+
 #section2 img
 {
 	width: 100px;
 	height: 100px;
-	float: left;
 	object-fit: cover;
 	object-position: center;
 	border: 3px solid white;
@@ -335,7 +359,6 @@ h2#lodging
 #section2 p
 {
 	width: 40%;
-	float: left;
 	color: black;
 	font-size: 12px;
 	margin-left: 1em;
@@ -511,15 +534,15 @@ footer a
 	color: black;
 }
 
-/* instruction nouvelle pour le responsive*/
 
-@media all screen (min-width: 470px) and (max-width: 1400px) /*ou alors utiliser...: all screen(ecran classique) and handheld(peripherique mobile) a demander*/
+@media (min-width: 375px) and (max-width: 1200px) /*ou alors utiliser...: all screen(ecran classique) and handheld(peripherique mobile) a demander*/
 {
 
 			header
 			{
 				width: auto;
 				margin: 1em 0em 0em 0em;
+				padding-left: 2em;
 			}
 
 			.menu
@@ -528,81 +551,98 @@ footer a
 				flex-wrap: wrap;
 			}
 
+				.filtres
+				{
+					display: inline-block;s
+				}
+
 			.rooms
 			{
-				width: auto;
+				width: 100%;
 				display: inline-block;
 			}
 
 			#section1
 			{
 				width: 100%;
-				margin: 0px;
 				background-color: white;
+			}
+
+			h2#lodging
+			{
+				margin: 1.6em 0em 1.6em 0em;
 			}
 
 			#section1 #article
 			{
 				width: auto;
 				display: inline-block;
+				padding: 0em 2em;
 			}
 
 			.rooms-proposition
 			{
-				margin: auto;
+				width: 100%
+			}
+
+			#section1 img
+			{
+				width: 99.4%;
+			}
+
+			#plus strong
+			{
 				margin-bottom: 2em;
 			}
 
 			#section2
 			{
 				width: 100%;
-				background-color: white;
+				background-color: #F2F2F2;
 				border-radius: 0px;
+				padding: 2em;
 
 			}
 
 			#section2 .selection
 			{
-				margin: 1em;
-			}
-
-			#section2 span i
-			{
-
+				margin: 2em 0em;
 			}
 
 			#section3
 			{
 				width: 100%;
 				display: inline-block;
+				padding: 2em;
 			}
 
 			#section3 .activites
 			{
+				height: 310px;
 				width: 100%;
-				margin: 1em;
+				margin-bottom: 2em;
 			}
 
 			.activites-fort-pomegues
 			{
-				margin-bottom: 1em;
+				margin-bottom: 2em;
 			}
 
 				.activites-notre-dame
 				{
-					margin-bottom: 1em;
+					margin-bottom: 2em;
 				}
 
 				#lieu-visite-box2
 				{
 					width: 100%;
-					margin: 1em;
+					margin-bottom: 2em;
 				}
 
 				#lieu-visite-box4
 				{
 					width: 100%;
-					margin: 1em;
+					margin-bottom: 2em;
 				}
 
 			footer
