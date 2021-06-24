@@ -534,8 +534,9 @@ footer a
 	color: black;
 }
 
+@media (max-width: 769px)
 
-@media (min-width: 375px) and (max-width: 1200px) /*ou alors utiliser...: all screen(ecran classique) and handheld(peripherique mobile) a demander*/
+				/*@media (min-width: 375px) and (max-width: 1200px)*/
 {
 
 			header
