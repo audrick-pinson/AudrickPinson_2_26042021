@@ -148,12 +148,18 @@ input.search-buttom
 	align-items: baseline;
 }
 
+.fitres-div
+{
+	margin-right: 1em;
+}
+
 .filtres span:not(.icone)
 {
 	height: 1.5em;
 	display: inline-flex;
 	justify-content: space-around;
-	margin-left: 1em;
+	margin-top: 0.5em;
+	margin-right: 1em;
 	padding: 0em 1em 0.7em 0em;
 	border: 2px solid #F2F2F2;
 	border-radius: 30px 30px 30px 30px;
@@ -554,13 +560,13 @@ footer a
 
 				.filtres
 				{
-					display: inline-block;s
+					display: inline-block;
 				}
 
 			.rooms
 			{
-				width: 100%;
-				display: inline-block;
+				width: auto;
+				display:block;
 			}
 
 			#section1
@@ -571,7 +577,12 @@ footer a
 
 			h2#lodging
 			{
-				margin: 1.6em 0em 1.6em 0em;
+				margin: 1.6em 0em 1.6em 2em;
+			}
+
+			#txt
+			{
+				margin-left: 2em;
 			}
 
 			#section1 #article
@@ -588,7 +599,7 @@ footer a
 
 			#section1 img
 			{
-				width: 99.4%;
+				width: 98%;
 			}
 
 			#plus strong
@@ -598,7 +609,7 @@ footer a
 
 			#section2
 			{
-				width: 100%;
+				width: auto;
 				background-color: #F2F2F2;
 				border-radius: 0px;
 				padding: 2em;
@@ -612,16 +623,21 @@ footer a
 
 			#section3
 			{
-				width: 100%;
-				display: inline-block;
+				width: auto;
+				display: block;
 				padding: 2em;
 			}
 
 			#section3 .activites
 			{
-				height: 310px;
+				height: 180px;
 				width: 100%;
 				margin-bottom: 2em;
+			}
+
+			 #section3 .activites img.tall
+			{
+				height: 130px;
 			}
 
 			.activites-fort-pomegues
@@ -634,22 +650,27 @@ footer a
 					margin-bottom: 2em;
 				}
 
-				#lieu-visite-box2
+				div#lieu-visite-box2
 				{
 					width: 100%;
 					margin-bottom: 2em;
 				}
 
-				#lieu-visite-box4
+				div#lieu-visite-box4
 				{
 					width: 100%;
 					margin-bottom: 2em;
+				}
+
+				#section3 img#little
+				{
+					height: 130px;
 				}
 
 			footer
 			{
 				width: 100%;
-				display: inline-block;
+				display: block;
 			}
 
 			.info
@@ -657,5 +678,9 @@ footer a
 				width: 50%;
 			}
 
+nav
+{
+	width: 56%;
+}
 
 }
