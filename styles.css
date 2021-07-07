@@ -602,6 +602,11 @@ footer a
 				width: 98%;
 			}
 
+			#section1 p
+			{
+				margin-bottom: 0.5em;
+			}
+
 			#plus strong
 			{
 				margin-bottom: 2em;
@@ -677,6 +682,11 @@ footer a
 			{
 				width: 50%;
 			}
+
+			footer ul
+			{
+				margin-bottom: 0em;
+}
 
 nav
 {
