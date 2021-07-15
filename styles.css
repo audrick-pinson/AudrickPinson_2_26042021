@@ -680,12 +680,13 @@ footer a
 
 			.rooms
 			{
-				width: auto;
-				display:block;
+				width: 100%;
+				display:flex;
 			}
 
 			#section1
 			{
+				order: 2;
 				width: 100%;
 				background-color: white;
 			}
@@ -703,7 +704,7 @@ footer a
 
 			#section1 #article
 			{
-				width: auto;
+				width: 100%;
 				display: inline-block;
 				padding: 0em 2em;
 			}
@@ -730,6 +731,7 @@ footer a
 
 			#section2
 			{
+				order: 1;
 				width: auto;
 				background-color: #F2F2F2;
 				border-radius: 0px;
