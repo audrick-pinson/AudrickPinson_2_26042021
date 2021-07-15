@@ -11,11 +11,25 @@
 		</head>
 		<body>
 					<header>
+						<div class="header-smart-pad"><!-- ce bloc1 contient la nav et le logo-->
+							<div class="logo-login">
+									<img class="logo" src="images/logo/Reservia.svg" alt="Reservia">
+									<a href="#" class="login">S'inscrire</a>
+							</div>
+							<div class="nav">
+								<ul class="menu-smart-pad">
+									<li><a href="#lodging" class="lodging">Hébergements</a></li>
+								</ul>
+								<ul class="menu-smart-pad2">
+									<li><a href="#titre-activite-marseille" id="nav-activite">Activités</a></li>
+								</ul>
+							</div>
+						</div>
 						<div class="header1"><!-- ce bloc1 contient la nav et le logo-->
 							<img class="logo" src="images/logo/Reservia.svg" alt="Reservia">
 							<nav>
 								<ul class="menu">
-									<li><a href="#lodging" class="lodging">Hébergement</a></li>
+									<li><a href="#lodging" class="lodging">Hébergements</a></li>
 									<li><a href="#titre-activite-marseille" id="nav-activite">Activités</a></li>
 									<li><a href="#" class="login">S'inscrire</a></li>
 								</ul>
@@ -30,6 +44,13 @@
 									<form method="post" action="#" id="barre-recherche">
 											<input class="search-ville" type="search" name="ville" value="Marseille, France " placeholder="ville rechercher"/>
 											<input class="search-buttom" type="submit" value="Rechercher"/>
+									</form>
+							</div>
+							<div class="search-smart-pad"><!--bloc3 dedier à la barre de recherche blocage mise en forme-->
+									<span class="search-marker"><i class="fas fa-map-marker-alt"></i></span>
+									<form method="post" action="#" id="barre-recherches">
+											<input class="search-ville" type="search" name="ville" value="Marseille, France " placeholder="ville rechercher"/>
+											<span class="search-buttom"><i class="fas fa-search fa-color"></i></span>
 									</form>
 							</div>
 							<div class="filtres"><!--ce bloc4 est dédier au filtre-->
@@ -66,7 +87,7 @@
 								</form>
 							</div>
 					</header>
-							<div id="txt"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</div>
+							<div id="txt"><i class="fas fa-info"></i><span>Plus de 500 logements sont disponibles dans cette ville</span></div>
 				<div class="rooms"><!-- Concerne le corps centrale du site dedier chambre-->
 					<section id="section1">
 								<h2 id="lodging">Hébergement à Marseille</h2><br/>
@@ -292,7 +313,7 @@
 												 images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg 740w,
 												 images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg 1200w,
 												 images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg 1600w"
-
+												 sizes="(max-width: 769px) 90vw, (min-width: 770px) 30vw"
 												alt="Nôtre-Dame-de-la-Garde"/>
 												<p>
 													<strong>Nôtre-Dame-de-la-Garde</strong>
