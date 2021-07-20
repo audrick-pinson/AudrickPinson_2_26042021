@@ -130,12 +130,17 @@ nav
 	margin-top: 1em;
 }
 
-.search-smart-pad
+button.button
 {
-	width: 100%;
+	height: 42px;
+	width: 42px;
+	background-color: #0065FC;
+	border: none;
+	border-radius: 9px;
+	padding: 1em;
 	text-align: center;
 	display: none;
-	margin-top: 1em;
+	margin-left: -0.6em;
 }
 
 .search-smart-pad span.search-buttom
@@ -254,6 +259,11 @@ label
 	color: black;
 }
 
+.filtres .icone:hover
+{
+	background-color: #0065FC;
+}
+
 #txt
 {
 	font-size: 90%;
@@ -310,7 +320,7 @@ h2#lodging
 .rooms-proposition
 {
 	width: 28%;
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 17px 17px 17px 17px;
 	background-color: white;
 	box-shadow: 1px 1px 9px grey;
 	margin-bottom: 2em;
@@ -320,8 +330,11 @@ h2#lodging
 #section1 img
 {
 	height: 90px;
-	width: 97.4%;
-	border: 3px solid white;
+	width: 97%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.2em;
 	border-radius: 15px 15px 0px 0px;
 	object-fit: cover;
 	object-position: center;
@@ -332,7 +345,7 @@ h2#lodging
 {
 	color: black;
 	font-size: 12px;
-	margin: 0em 0em 0em 1em ;
+	margin: 1em 0em 0em 1em ;
 }
 
 #section1 p strong
@@ -395,25 +408,27 @@ h2#lodging
 }
 
 .selection {
+	height: 107px;
 	background-color: white;
 	margin-bottom: 2em;
-	border-radius: 15px;
+	border-radius: 17px;
 	box-shadow: 1px 1px 9px grey;
 }
 
 #section2 img
 {
-	width: 100px;
+	width: 80px;
 	height: 100px;
+	display: block;
+	margin: 0.2em 0.2em;
 	object-fit: cover;
 	object-position: center;
-	border: 3px solid white;
 	border-radius: 15px 0px 0px 15px;
 }
 
 #section2 p
 {
-	width: 40%;
+	width: 86%;
 	color: black;
 	font-size: 12px;
 	margin-left: 1em;
@@ -425,9 +440,11 @@ h2#lodging
 	font-size: 10px;
 }
 
-#section2 span i
+.stars
 {
-	margin-top: 2.5em;
+	height: 20px;
+	font-size: 13px;
+	padding: 2em 1em 0.5em 1em;
 }
 
 #titre-activite-marseille
@@ -569,6 +586,7 @@ footer
 {
 	width: 33%;
 	margin-left: 1.8em;
+	padding-top: 1em;
 }
 
 footer ul
@@ -628,14 +646,20 @@ footer a
 			.menu-smart-pad a:hover
 			{
 				color: #0065FC;
-				padding-bottom: 1em;
+			}
+
+			.header-smart-pad .menu-smart-pad:hover
+			{
 				border-bottom: 3px solid #F2F2F2;
 			}
 
 			.menu-smart-pad2 a:hover
 			{
 				color: #0065FC;
-				padding-bottom: 1em;
+			}
+
+			.header-smart-pad .menu-smart-pad2:hover
+			{
 				border-bottom: 3px solid #0065FC;
 			}
 
@@ -645,26 +669,29 @@ footer a
 
 			.header2 h1
 			{
-				width: 100%;
-				font-size: 25px;
+				width: 90%;
+				font-size: 21px;
 				margin-bottom: 0.3em;
 			}
 
 			.sujet
 			{
-				font-size: 110%;
-
+				font-size: 95%;
 			}
 
 			.search
 			{
+				margin-left: 2em;
+			}
+
+			input.search-buttom
+			{
 				display: none;
 			}
 
-			.search-smart-pad
+			button.button
 			{
-				display: flex;
-				padding-left: 2em;
+				display: inline-flex;
 			}
 
 			input.search-ville
@@ -711,12 +738,13 @@ footer a
 
 			.rooms-proposition
 			{
-				width: 100%
+				width: 100%;
+				margin-bottom: 1em;
 			}
 
 			#section1 img
 			{
-				width: 98%;
+				width: 98.8%;
 			}
 
 			#section1 p
@@ -732,7 +760,7 @@ footer a
 			#section2
 			{
 				order: 1;
-				width: auto;
+				width: 100%;
 				background-color: #F2F2F2;
 				border-radius: 0px;
 				padding: 2em;
@@ -742,6 +770,11 @@ footer a
 			#section2 .selection
 			{
 				margin: 2em 0em;
+			}
+
+			#titre-activite-marseille h1
+			{
+				margin-left: 0.5em;
 			}
 
 			#section3
@@ -755,7 +788,7 @@ footer a
 			{
 				height: 180px;
 				width: 100%;
-				margin-bottom: 2em;
+				margin-bottom: 1em;
 			}
 
 			 #section3 .activites img.tall
@@ -763,26 +796,36 @@ footer a
 				height: 130px;
 			}
 
+			#section3 .activites-fort-pomegues
+			{
+				margin-bottom: 1em;
+			}
+
+			#section3 .activites-notre-dame
+			{
+				margin-bottom: 1em;
+			}
+
 			.activites-fort-pomegues
 			{
-				margin-bottom: 2em;
+				margin-bottom: 1em;
 			}
 
 				.activites-notre-dame
 				{
-					margin-bottom: 2em;
+					margin-bottom: 1em;
 				}
 
 				div#lieu-visite-box2
 				{
 					width: 100%;
-					margin-bottom: 2em;
+					margin-bottom: 1em;
 				}
 
 				div#lieu-visite-box4
 				{
 					width: 100%;
-					margin-bottom: 2em;
+					margin-bottom: 1em;
 				}
 
 				#section3 img#little
