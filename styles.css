@@ -21,7 +21,11 @@ a{text-decoration: none;}
 .fa-heart{color: #0065FC}
 .fa-dog{color: #0065FC}
 
-body{margin: 0em;}
+body
+{
+	margin: 0em;
+	cursor: pointer;
+}
 
 header
 {
