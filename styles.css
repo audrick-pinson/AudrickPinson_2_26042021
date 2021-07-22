@@ -24,7 +24,6 @@ a{text-decoration: none;}
 body
 {
 	margin: 0em;
-	cursor: pointer;
 }
 
 header
@@ -107,7 +106,7 @@ header .menu
 {
 	color: black;
 	border-top: 2px solid #0065FC;
-
+	cursor: pointer;
 }
 
 nav
@@ -181,6 +180,7 @@ input.search-ville
 
 input.search-buttom
 {
+	cursor: pointer;
 	height: 39px;
 	width: 100px;
 	color: white;
@@ -193,6 +193,7 @@ input.search-buttom
 
 .filtres
 {
+	cursor: pointer;
 	display: flex;
 	font-weight: bold;
 	align-items: baseline;
@@ -255,17 +256,20 @@ label
 .filtres span:hover
 {
 	color: #0065F7;
+	cursor: pointer;
 }
 
 
 .filtres span:hover i
 {
 	color: black;
+	cursor: pointer;
 }
 
 .filtres .icone:hover
 {
 	background-color: #0065FC;
+	cursor: pointer;
 }
 
 #txt
@@ -650,21 +654,25 @@ footer a
 			.menu-smart-pad a:hover
 			{
 				color: #0065FC;
+				cursor: pointer;
 			}
 
 			.header-smart-pad .menu-smart-pad:hover
 			{
 				border-bottom: 3px solid #F2F2F2;
+				cursor: pointer;
 			}
 
 			.menu-smart-pad2 a:hover
 			{
 				color: #0065FC;
+				cursor: pointer;
 			}
 
 			.header-smart-pad .menu-smart-pad2:hover
 			{
 				border-bottom: 3px solid #0065FC;
+				cursor: pointer;
 			}
 
 			.header1{display: none;}
