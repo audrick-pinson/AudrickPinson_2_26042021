@@ -433,7 +433,6 @@ h2#lodging
 	color: black;
 	font-size: 12px;
 	margin-left: 0.6em;
-	margin-bottom: 0px;
 }
 
 #section2 .pricenight
@@ -445,7 +444,7 @@ h2#lodging
 {
 	height: 20px;
 	font-size: 12px;
-	padding: 2em 1em 0.5em 1em;
+	padding: 0.8em 1em 0.5em 1em;
 }
 
 #titre-activite-marseille
