@@ -92,7 +92,7 @@ header .menu
 	border-top: 2px solid #0065FC;
 }
 
-.menu #nav-activite
+.menu .nav-activite
 {
 	color: black;
 }
@@ -113,10 +113,9 @@ nav
 {
 	display: flex;
 	flex-wrap: wrap;
-	width: 38%;
 }
 
-.header2 h1
+.enonce h1
 {
 	width: 80%;
 	margin-bottom: 0.3em;
@@ -272,7 +271,7 @@ label
 	cursor: pointer;
 }
 
-#txt
+#infobulle
 {
 	font-size: 90%;
 	margin-top: 1.5em;
@@ -280,7 +279,7 @@ label
 	margin-left: 1em;
 }
 
-#txt i
+#infobulle i
 {
 	margin-right: 1em;
 	text-align: center;
@@ -306,7 +305,7 @@ i.fas.fa-info {
 #section1
 {
 	width: 66%;
-	display: flex;
+	display: block;
 	flex-wrap: wrap;
 	border-radius: 15px 15px 15px 15px;
 	background-color: #F2F2F2;
@@ -353,7 +352,7 @@ h2#lodging
 {
 	color: black;
 	font-size: 12px;
-	margin: 1em 0em 0em 1em ;
+	margin: 1em 0em 1em 1em ;
 }
 
 #section1 p strong
@@ -388,6 +387,7 @@ h2#lodging
 
 #section2 #les-plus-populaires
 {
+	width: 97%;
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
@@ -406,16 +406,9 @@ h2#lodging
 	margin-bottom: 0em;
 }
 
- {
-	width: 100%;
-	display: inline-block;
-	background-color: white;
-	border-radius: 15px 15px 15px 15px;
-	box-shadow: 1px 1px 9px grey;
-	margin-bottom: 2em;
-}
 
 .selection {
+	width: 97%;
 	height: 107px;
 	background-color: white;
 	margin-bottom: 2em;
@@ -425,7 +418,7 @@ h2#lodging
 
 #section2 img
 {
-	width: 80px;
+	width: 35%;
 	height: 100px;
 	display: block;
 	margin: 0.2em 0.2em;
@@ -436,10 +429,10 @@ h2#lodging
 
 #section2 p
 {
-	width: 86%;
+	width: 90%;
 	color: black;
 	font-size: 12px;
-	margin-left: 1em;
+	margin-left: 0.6em;
 	margin-bottom: 0px;
 }
 
@@ -451,7 +444,7 @@ h2#lodging
 .stars
 {
 	height: 20px;
-	font-size: 13px;
+	font-size: 12px;
 	padding: 2em 1em 0.5em 1em;
 }
 
@@ -677,9 +670,9 @@ footer a
 
 			.header1{display: none;}
 
-			.header2{padding-left: 2em;}
+			.enonce{padding-left: 2em;}
 
-			.header2 h1
+			.enonce h1
 			{
 				width: 90%;
 				font-size: 21px;
@@ -735,7 +728,7 @@ footer a
 				margin: 1.6em 0em 1.6em 2em;
 			}
 
-			#txt
+			#infobulle
 			{
 				display: flex;
 				margin-left: 2em;
@@ -791,7 +784,7 @@ footer a
 
 			#section3
 			{
-				width: auto;
+				width: 100%;
 				display: block;
 				padding: 2em;
 			}
@@ -863,3 +856,12 @@ footer a
 
 
 }
+
+/*@media (max-width: 769px) {
+	#section2 img {width: 175px;}
+	#section1 img {height: 230px;}
+	#section3 img {height: 310px !important;}
+	#section3 .activites {height: auto;}
+	.activites p {padding-bottom: 1em;}
+}
+*/
