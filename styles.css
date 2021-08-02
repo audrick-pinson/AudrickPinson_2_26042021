@@ -32,9 +32,9 @@ header
 	margin-left: 1em;
 }
 
-.header-smart-pad{display: none;}
+.smart-pad{display: none;}
 
-.header-smart-pad .nav
+.smart-pad .nav
 {
 	width: 100%;
 	display: flex;
@@ -42,7 +42,7 @@ header
 	align-items: center;
 }
 
-.header-smart-pad .menu-smart-pad
+.smart-pad .menu-smart-pad
 {
 	width: 50%;
 	list-style-type: none;
@@ -52,7 +52,7 @@ header
 	border-bottom: 3px solid #0065FC;
 }
 
-.header-smart-pad .menu-smart-pad2
+.smart-pad .menu-smart-pad2
 {
 	width: 50%;
 	list-style-type: none;
@@ -62,7 +62,7 @@ header
 	border-bottom: 3px solid #F2F2F2;
 }
 
-.header1
+.navigation
 {
 	width: 100%;
 	display: flex;
@@ -455,9 +455,15 @@ h2#lodging
 #section3
 {
 	width: 100%;
-	display: flex;
+	display: block;
 	justify-content: space-around;
 	margin-bottom: 3em;
+}
+
+.decouverte
+{
+	display: flex;
+	justify-content: space-around;
 }
 
 #section3 .activites
@@ -618,7 +624,12 @@ footer a
 				margin: 1em 0em 0em 0em;
 			}
 
-			.header-smart-pad
+			.navigation
+			{
+				display: none;
+			}
+
+			.smart-pad
 			{
 				display: block;
 			}
@@ -649,7 +660,7 @@ footer a
 				cursor: pointer;
 			}
 
-			.header-smart-pad .menu-smart-pad:hover
+			.smart-pad .menu-smart-pad:hover
 			{
 				border-bottom: 3px solid #F2F2F2;
 				cursor: pointer;
@@ -661,7 +672,7 @@ footer a
 				cursor: pointer;
 			}
 
-			.header-smart-pad .menu-smart-pad2:hover
+			.smart-pad .menu-smart-pad2:hover
 			{
 				border-bottom: 3px solid #0065FC;
 				cursor: pointer;
@@ -787,6 +798,16 @@ footer a
 				width: auto;
 				display: block;
 				padding: 2em;
+			}
+
+			h2
+			{
+				margin-left: -1.5em;
+			}
+
+			.decouverte
+			{
+				display: block;
 			}
 
 			#section3 .activites
