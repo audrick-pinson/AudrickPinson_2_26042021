@@ -32,87 +32,58 @@ header
 	margin-left: 1em;
 }
 
-.smart-pad{display: none;}
-
-.smart-pad .nav
+.smart-pad
 {
-	width: 100%;
+	width: 102%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.logo
+{
+	width: 62%;
+}
+.smart-pad .nav
+{
+	display: flex;
+	font-size: 90%;
+	margin-left: auto; /*0px*/
+}
+
+#login
+{
+	order: 3;
+	height: 20px;
+	padding-left: 2em;
+}
+
+a.login
+{
+	font-weight: bold;
+	color: #0065FC;
 }
 
 .smart-pad .menu-smart-pad
 {
-	width: 50%;
 	list-style-type: none;
 	text-align: center;
-	padding-left: 0em;
-	padding-bottom: 1em;
-	border-bottom: 3px solid #0065FC;
+}
+
+a.lodging
+{
+	color: #0065FC;
 }
 
 .smart-pad .menu-smart-pad2
 {
-	width: 50%;
 	list-style-type: none;
 	text-align: center;
-	padding-left: 0em;
-	padding-bottom: 1em;
-	border-bottom: 3px solid #F2F2F2;
 }
 
-.navigation
-{
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-header .menu
-{
-	list-style-type: none;
-	display: flex;
-}
-
-.menu li
-{
-	padding-left: 2.5em;
-}
-
-.menu a
-{
-	color: #0065FC;
-	padding-top: 0.85em;
-}
-
-.menu .lodging
-{
-	border-top: 2px solid #0065FC;
-}
-
-.menu .nav-activite
+a.nav-activite
 {
 	color: black;
-}
-
-.menu .login
-{
-	font-weight: bold;
-}
-
-.menu a:hover
-{
-	color: black;
-	border-top: 2px solid #0065FC;
-	cursor: pointer;
-}
-
-nav
-{
-	display: flex;
-	flex-wrap: wrap;
 }
 
 .enonce h1
@@ -624,23 +595,48 @@ footer a
 				margin: 1em 0em 0em 0em;
 			}
 
-			.navigation
-			{
-				display: none;
-			}
-
 			.smart-pad
 			{
-				display: block;
+				width: 100%;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
 			}
 
-			.logo-login
+			.logo
 			{
-				padding-left: 2em;
+				width: 46%;
+				margin-left: 1.1em;
+			}
+
+			#login
+			{
 				padding-right: 2em;
+			}
+
+			.smart-pad .nav
+			{
+				width: 100%;
+				order: 3;
 				display: flex;
-				justify-content: space-between;
-				align-items: center;
+			}
+
+			.smart-pad .menu-smart-pad
+			{
+				width: 50%;
+				padding-right: 18px;
+				padding-left: 33px;
+				padding-bottom: 1em;
+				border-bottom: 3px solid #0065FC;
+			}
+
+			.smart-pad .menu-smart-pad2
+			{
+				width: 50%;
+				padding-right: 37px;
+				padding-left: 0px;
+				padding-bottom: 1em;
+				border-bottom: 3px solid #F2F2F2;
 			}
 
 			a.login
@@ -780,8 +776,9 @@ footer a
 				background-color: #F2F2F2;
 				border-radius: 0px;
 				padding: 2em;
-
 			}
+
+			#section2 h2{margin-left: 0em;}
 
 			#section2 .selection
 			{
